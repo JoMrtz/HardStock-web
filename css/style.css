@@ -1,19 +1,47 @@
+
+/* linear-gradient(40deg,#45cafc,#303f9f) */
 .info {
     background-color: #EEEEEE;
-    height: 40vh;
+    height: 50vh;
 }
 
 .info__title {
     font-weight: 900;
-    color: #d70000;
     padding-bottom: 1.2rem;
+    background: linear-gradient(40deg,#45cafc,#303f9f);
+    -webkit-background-clip: text;
+    color: transparent;  
     font-size: 2.1rem; 
 }
 
 .servicios {
-    height: 50vh;
+    height: 80vh;
+    background: #EEEEEE;
 }
 
-.card-edit {
-    width: 500px;
+.marcas {
+    height: 50vh;
+    background: #EEEEEE;
+}
+
+.marcas_bordes {
+    border-bottom: black solid .5px;
+}
+
+.marcas_border2 {
+    border-right: rgb(68, 68, 68) solid .5px;
+}
+
+.card_medida {
+    width: 400px;
+    height: 350px;
+}
+
+.sponsorLogo {
+    transition: .6s;
+    width: 250px;
+}
+
+.sponsorLogo:hover {
+    transform: scale(1.1);
 }
