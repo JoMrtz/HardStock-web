@@ -42,29 +42,10 @@ body {
     
 }
 
-.nuestrosServicios {
-    background-image: url("/img/1603915291-Gamers.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.nuestrosServicios::before {
-    content: '';
-    position: absolute;
-    background: #101536;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.4;
-
-}
 
 .svg-servicios {
-    width: 550px;
-    height: 550px;
+    width: 60%;
+    height: 60%;
 }
 
 
@@ -137,36 +118,4 @@ body {
     .vh-50 {
         height: 100vh;
     }
-}
-
-<<<<<<< HEAD
-@media screen and (max-width: 765px) {
-    .svg-servicios {
-        width: 350px;
-        height: 350px;
-    }
-    .servicios__titulo {
-        font-weight: 900;
-        background: linear-gradient(40deg,#45cafc,#303f9f);
-        -webkit-background-clip: text;
-        color: transparent;  
-        font-size: 2.5rem; 
-        margin-bottom: 1.5rem;
-        
-    }
-
-    .servicios__parrafo {
-        width: 750px;
-        font-size: 1.3rem;
-        font-weight: 300;
-        margin-bottom: 1.5rem;
-    }
-
-=======
-.contacto{
-    margin-bottom: 3rem;
-}
-.preguntas-container{
-    margin-bottom: 3rem;
->>>>>>> 00c3a84f4a5a41b8876caa7fa602761078b4690a
 }
