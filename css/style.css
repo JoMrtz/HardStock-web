@@ -1,11 +1,25 @@
+:root {
 
-/* linear-gradient(40deg,#45cafc,#303f9f) */
-.info {
+}
+
+body {
     background-color: #EEEEEE;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Informacion */
+.informacion {
     height: 50vh;
 }
 
-.info__title {
+.informacion__titulo {
     font-weight: 900;
     padding-bottom: 1.2rem;
     background: linear-gradient(40deg,#45cafc,#303f9f);
@@ -13,30 +27,65 @@
     color: transparent;  
     font-size: 2.1rem; 
 }
+/* /.informacion */
 
-.servicios {
-    height: 80vh;
-    background: #EEEEEE;
+
+
+/* Servicios */
+
+.vh-50 {
+    height: 60vh;
 }
 
+.svg-servicios {
+    width: 550px;
+    height: 550px;
+}
+
+
+.servicios__titulo {
+    font-weight: 900;
+    background: linear-gradient(40deg,#45cafc,#303f9f);
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-size: 3.1rem; 
+    margin-bottom: 2rem;
+}
+
+.servicios__parrafo {
+    width: 750px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.servicio__medida {
+    width: 400px;
+    height: 350px;
+}
+/* /.Servicios */
+
+
+
+/* Marcas */
 .marcas {
     height: 50vh;
     background: #EEEEEE;
 }
 
-.marcas_bordes {
-    border-bottom: black solid .5px;
+.marcas__titulo {
+    font-weight: 900;
+    background: linear-gradient(40deg,#45cafc,#303f9f);
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-size: 3.1rem; 
+    margin-bottom: 6rem;
 }
+/* /.Marcas */
 
-.marcas_border2 {
-    border-right: rgb(68, 68, 68) solid .5px;
-}
 
-.card_medida {
-    width: 400px;
-    height: 350px;
-}
 
+/* Sponsor */
 .sponsorLogo {
     transition: .6s;
     width: 250px;
@@ -44,4 +93,12 @@
 
 .sponsorLogo:hover {
     transform: scale(1.1);
+}
+/* /.Sponsor */
+
+
+@media screen and (max-width: 1200px) {
+    .vh-50 {
+        height: 100vh;
+    }
 }
