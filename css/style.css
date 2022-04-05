@@ -138,3 +138,27 @@ body {
         height: 100vh;
     }
 }
+
+@media screen and (max-width: 765px) {
+    .svg-servicios {
+        width: 350px;
+        height: 350px;
+    }
+    .servicios__titulo {
+        font-weight: 900;
+        background: linear-gradient(40deg,#45cafc,#303f9f);
+        -webkit-background-clip: text;
+        color: transparent;  
+        font-size: 2.5rem; 
+        margin-bottom: 1.5rem;
+        
+    }
+
+    .servicios__parrafo {
+        width: 750px;
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+    }
+
+}
