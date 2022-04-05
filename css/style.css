@@ -139,6 +139,7 @@ body {
     }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 765px) {
     .svg-servicios {
         width: 350px;
@@ -161,4 +162,11 @@ body {
         margin-bottom: 1.5rem;
     }
 
+=======
+.contacto{
+    margin-bottom: 3rem;
+}
+.preguntas-container{
+    margin-bottom: 3rem;
+>>>>>>> 00c3a84f4a5a41b8876caa7fa602761078b4690a
 }
