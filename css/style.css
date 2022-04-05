@@ -69,7 +69,7 @@ body {
 }
 
 .servicios__parrafo {
-    width: 650px;
+    width: 600px;
     font-size: 1.3rem;
     font-weight: 300;
     margin-bottom: 2rem;
@@ -154,4 +154,14 @@ body {
         height: 100vh;
     }
 
+}
+
+@media screen and (max-width: 412px) {
+
+    .servicios__parrafo {
+        width: 300px;
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
 }
