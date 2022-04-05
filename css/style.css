@@ -37,6 +37,31 @@ body {
     height: 60vh;
 }
 
+.vh-30 {
+    height: 30vh;
+    
+}
+
+.nuestrosServicios {
+    background-image: url("/img/1603915291-Gamers.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.nuestrosServicios::before {
+    content: '';
+    position: absolute;
+    background: #101536;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+
+}
+
 .svg-servicios {
     width: 550px;
     height: 550px;
@@ -50,6 +75,17 @@ body {
     color: transparent;  
     font-size: 3.1rem; 
     margin-bottom: 2rem;
+    
+}
+
+.servicios__titulo2 {
+    font-weight: 900;
+    background: linear-gradient(40deg,#45cafc,#303f9f);
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-size: 5.1rem; 
+    margin-bottom: 2rem;
+    position: relative;
 }
 
 .servicios__parrafo {
