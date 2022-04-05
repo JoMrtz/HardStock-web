@@ -66,11 +66,10 @@ body {
     color: transparent;  
     font-size: 5.1rem; 
     margin-bottom: 2rem;
-    position: relative;
 }
 
 .servicios__parrafo {
-    width: 750px;
+    width: 650px;
     font-size: 1.3rem;
     font-weight: 300;
     margin-bottom: 2rem;
@@ -118,4 +117,41 @@ body {
     .vh-50 {
         height: 100vh;
     }
+    .vh-30 {
+        height: 60vh;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .vh-50 {
+        height: 150vh;
+    }
+    .vh-30 {
+        height: 40vh;
+        
+    }
+    .servicios__titulo {
+        font-weight: 900;
+        background: linear-gradient(40deg,#45cafc,#303f9f);
+        -webkit-background-clip: text;
+        color: transparent;  
+        font-size: 1.8rem; 
+        margin-bottom: 2rem;
+        
+    }
+    
+    .servicios__titulo2 {
+        font-weight: 900;
+        background: linear-gradient(40deg,#45cafc,#303f9f);
+        -webkit-background-clip: text;
+        color: transparent;  
+        font-size: 3.1rem; 
+        margin-bottom: 2rem;
+    }
+
+    .informacion {
+        height: 100vh;
+    }
+
 }
